@@ -7,7 +7,7 @@ void chuanHoa(char* str) {
     int n = strlen(str);
     char result[81] = "";  // Xâu kết quả chuẩn hóa
     int idx = 0;           // Vị trí trong xâu kết quả
-    int capitalize = 1;    // Biến cờ để viết hoa chữ cái đầu
+    int capitalize = 1;    // Biến để viết hoa chữ cái đầu
 
     for (int i = 0; i < n; i++) {
         if (str[i] != ' ') {
